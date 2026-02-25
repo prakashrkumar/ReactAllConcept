@@ -1,0 +1,28 @@
+body{
+    font-family: sans-serif;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+}
+.number{
+    font-size: 6rem;
+    width: 15rem;
+    margin: 20px auto;
+    background-color: #eee;
+    color: #222;
+}
+.message,.score,.highscore{
+    font-size: 2rem;
+}
+input{
+    width: 50px;
+    font-size: 1.2rem;
+    border: none;
+   text-align: center;
+}
+button{
+    padding: 10px 20px;
+    font-size: 2rem;
+    margin: 10px;
+    cursor: pointer;
+}
