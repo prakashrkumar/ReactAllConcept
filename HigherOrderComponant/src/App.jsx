@@ -1,12 +1,29 @@
 import React from 'react'
-import "./App.css"
-import Greeting from './Greeting'
 
+import Greeting from './Greeting'
+import GreetingWithStyle from './HOC/GreetingWithStyle'
+import PostListWithData from './HOC/PostListWithData'
+import withAuth from './HOC/withAuth'
+import Dashboard from './HOC/Dashboard'
+
+
+
+
+
+
+
+
+const ProtectedDashboard=withAuth(Dashboard)
 const App = () => {
   return (
     <div>
-      <h1>hi ok</h1>
+      
       <Greeting name={"prakash"}/>
+      <GreetingWithStyle name="Ramesh"/>
+
+
+      <PostListWithData/>
+      <ProtectedDashboard/>
     </div>
   )
 }

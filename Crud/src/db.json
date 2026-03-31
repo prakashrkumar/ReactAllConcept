@@ -1,0 +1,25 @@
+{
+ "users"  :[
+    {
+     "id":1,
+     "name":"Salman Khan" ,
+     "username":"Salman khan" ,
+     "email" :"prakashr17032000@gmail.com",
+     "age":23
+    },
+    {
+     "id":2,
+     "name":"Salman Khan1" ,
+     "username":"Salman khan1" ,
+     "email" :"prakashr117032000@gmail.com",
+     "age":231
+    },
+    {
+     "id":3,
+     "name":"Salman Khan2" ,
+     "username":"Salman khan2" ,
+     "email" :"prakashr217032000@gmail.com",
+     "age":232
+    }
+ ] 
+}
